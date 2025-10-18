@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments / env
+.venv
+.env
+
+# Ignore cloned repos (for data processing) if they weren't deleted
+BiasData
+RedditBias
+
+# Ignore locally stored models
+models
